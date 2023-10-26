@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>QNF</title>
+    <style>
+        header {
+            background-color: rgb(12, 32, 53);
+            padding: 30px;
+            text-align: center;
+            font-size: 35px;
+            color: white;
+        }
+        article  {
+            padding: 20px;
+            width: 100%;
+            border-style: ridge;
+            border-color: black;
+            background-color: rgb(9, 156, 90);
+        }
+        footer {
+            background-color: rgb(7, 82, 76);
+            padding: 10px;
+            text-align: center;
+            color: wheat;
+        }
+        nav {
+            background-color: rgb(7, 82, 76);
+            padding: 10px;
+            
+        }
+        nav ul {
+            list-style-type: none;
+            overflow: hidden;
+        }
+        nav li {
+            float: left;
+        }
+        nav li a {
+            display: block;
+            text-align: center;
+            padding: 16px;
+            text-decoration: none;
+        }
+        nav li a:hover {
+            background-color: orange;
+        }
+        li {
+            background-color: aquamarine;
+            border-style: solid;
+        }
+        ul {
+            margin-left: 500px;
+        }
+    </style>
+</head>
+<body>
+    <Header>
+        <h1>Tambah Bagian</h1>
+    </Header>
+    <nav>
+        <ul>
+            <li><a href="../index.html">Beranda</a></li>
+            <li><a href="index.html">Karyawan</a></li>
+            <li><a href="../bagian/index.html">Bagian</a></li>
+            <li><a href="../penggajian/index.html">Penggajian</a></li>
+        </ul>
+    </nav>
+    <section>
+       <form action="">
+        <fieldset>
+            <legend>Tambah Bagian</legend>
+            <p>
+                <label for="">ID</label>
+                <input type="text"
+                placeholder="Isi ID">
+                <hr>
+                <label for="">Nama Bagian</label>
+                <select name="" id="">
+                    <option value="--PILIH-">--PILIH--</option>
+                    <option value="TETAP">TETAP</option>
+                    <option value="KONTRAK">KONTRAK</option>
+                    <option value="MAGANG">MAGANG</option>
+                </select>
+            </p>
+            <P>
+                <button style="background-color: rgb(20, 66, 76); color: white;">Simpan</button>
+            </P>
+        </fieldset>
+       </form>
+    </section>
+    <footer>
+        <p>Powered by QNF <time datetime="2023"></time> </p>
+    </footer>
+</body>
+</html>
